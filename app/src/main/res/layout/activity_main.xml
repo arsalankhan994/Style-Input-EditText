@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <!--<com.avialdo.bhrn.components.StyleInput
+        android:id="@+id/email_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:editTextHint="@string/email"
+        app:inputType="email"
+        app:image="@drawable/ic_message" />
+
+
+    <com.avialdo.bhrn.components.StyleInput
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:editTextHint="@string/password"
+        app:inputType="password"
+        app:image="@drawable/ic_password" />-->
+
+    <Button
+        android:id="@+id/sign_In"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:includeFontPadding="false"
+        android:textSize="15sp"
+        android:text="@string/sign_in"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
