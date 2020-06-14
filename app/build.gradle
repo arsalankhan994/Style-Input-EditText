@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.erselankhan.styleinputedittext"
+        applicationId "com.apphut.styleinput"
         minSdkVersion 17
         targetSdkVersion 29
         versionCode 1
@@ -31,4 +31,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.github.arsalankhan994:Style-Input-EditText:1.0.0'
 }
