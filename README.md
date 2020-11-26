@@ -4,8 +4,8 @@
 
 Step 1: Add it in your root build.gradle at the end of repositories:
 
-
-```allprojects { 
+```
+allprojects { 
 repositories 
 { ... maven {
  url 'https://jitpack.io'
@@ -19,8 +19,9 @@ Step 2: Add the dependency
 
 
 dependencies
-
-```{ implementation 'com.github.arsalankhan994:Style-Input-EditText:1.0.0' }```
+```
+{ implementation 'com.github.arsalankhan994:Style-Input-EditText:1.0.0' }
+```
 
 
 That's it. Now open your java file:
